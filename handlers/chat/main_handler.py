@@ -7,6 +7,10 @@ from better_profanity import profanity
 from dispatcher import bot
 
 
+async def start_command(message: types.Message):
+	START_MESSAGE = "Если у вас есть идеи для новых постов, не стесняйтесь присылать их мне"
+	await message.answer(START_MESSAGE)
+
 async def on_message(message: types.Message):
 	allowed_chat_type = "private"
 	if message.chat.type == allowed_chat_type:
