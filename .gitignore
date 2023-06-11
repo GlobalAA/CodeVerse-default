@@ -1,0 +1,11 @@
+__pycache__
+assets
+filters/__pycache__
+handlers/__pycache__
+handlers/channel/__pycache__
+handlers/chat/__pycache__
+handlers/chat/admin_handler.py
+utils/__pycache__
+venv
+.env
+photos
